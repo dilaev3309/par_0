@@ -36,7 +36,6 @@ int main() {
     double* sinarrdb = malloc(size * sizeof(double));
     double sumsindb = 0;
     double x2 = (2 * pi) / size;
-printf("assasas");
 #pragma acc kernels
 #pragma omp parallel for num_threads(4)
     for (int i = 0; i < size; i++) {
