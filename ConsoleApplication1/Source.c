@@ -47,7 +47,7 @@ int main() {
     end = clock();
     double time2 = (double)(end - start) / CLOCKS_PER_SEC;
     printf("time %f\n", time2);
-    printf("%.50f\n", sumsindb);
+    printf("%.50lf\n", sumsindb);
 
     free(sinarrdb);
 
