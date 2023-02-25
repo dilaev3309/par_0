@@ -26,7 +26,7 @@ int main() {
     }
 
     clock_t end = clock();
-    double time = (end - start) / CLOCKS_PER_SEC;
+    double time = (double)(end - start) / CLOCKS_PER_SEC;
     printf("time %f\n", time);
     printf("%.50f\n", sumsinfl);
 
